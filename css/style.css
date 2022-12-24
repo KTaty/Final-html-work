@@ -12,6 +12,10 @@ ul {
     list-style-type: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 .center__block {
     width: 100%;
     max-width: 1160px;
@@ -605,6 +609,128 @@ ul {
     font-size: 13.972px;
     line-height: 17px;
     text-align: center;
+}
+
+.cart {
+    visibility: hidden;
+    max-width: 1140px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cart h2 {
+    margin: 96px auto 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.cart__item {
+    background-color: #fff;
+    margin-top: 40px;
+    display: flex;
+    width: 652px;
+    height: 302px;
+    filter: drop-shadow(17px 24px 19px rgba(0, 0, 0, 0.13));
+
+}
+
+.cart__item:first-of-type {
+    margin-top: 64px;
+}
+
+.cart__item:last-of-type {
+    margin-bottom: 96px;
+}
+
+.cart__item .img_wrapper {
+    width: 262px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cart__item .img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart__item .description {
+    width: 262px;
+    padding: 28px;
+    position: relative;
+}
+
+.cart__item .description h6 {
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    display: inline;
+}
+
+.cart__item .description ul {
+    margin-top: 42px;
+}
+
+.cart__item .description ul {
+    margin-bottom: 6px;
+}
+
+.cart__item .description li span {
+    color: #575757;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 4px;
+}
+
+
+.cart__item .description .price_value {
+    color: #EF5B70 !important;
+}
+
+.card__item__btn {
+    width: 18px;
+    height: 18px;
+    background: none;
+    border: none;
+    fill: #575757;
+    position: relative;
+    right: -22px;
+    top: 28px;
+
+}
+
+.card__item__btn:hover {
+    fill: #F16D7F;
+    ;
+}
+
+.card__item__btn:active {
+    fill: rgb(109, 192, 209);
+}
+
+.quantity_value {
+    width: 43px;
+    height: 24px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #EAEAEA;
+    margin-left: 24px;
 }
 
 .comment {
