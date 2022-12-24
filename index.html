@@ -509,45 +509,8 @@
                 }
 
             });
-
-
-
-
-
         });
 
-
-
-
-
-        const listener = (e) => {
-            const currentItem = event.target.closest('.products__item');
-            console.log(currentItem);
-
-            //createCartItem(currentItem);
-
-            console.log(event.target);
-            console.log(event.target.classList.contains('products__item__btn'));
-
-
-            if (event.target.classList.contains('products__btn')) {
-
-                //event.target.classList.add('select__item');
-                const currentItem = event.target.closest('.products__item');
-                const indexItem = basket.indexOf(currentItem);
-
-                if (indexItem === -1) {
-                    createCartItem(currentItem);
-                    basked.push(currentItem);
-                }
-                else {
-                    console.log(cardList.children[indexItem]);
-                }
-
-            }
-
-        }
-        //productsList.addEventListener('click', listener);
     </script>
 
 </body>
