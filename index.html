@@ -504,8 +504,8 @@
                 }
                 else {
                     const cart = cardList.children[indexItem + 1];
-                    const count = parseInt(cart.querySelector('.quantity_value').textContent) + 1;
-                    cart.querySelector('.quantity_value').textContent = count;
+                    const count = parseInt(cart.querySelector('.quantity_value').value) + 1;
+                    cart.querySelector('.quantity_value').value = count;
                 }
 
             });
